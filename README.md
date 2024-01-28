@@ -79,3 +79,8 @@ You can install it with the following command.
 ```bash
 npm install -g typescript
 ```
+
+After typescript has been installed use the command below to generate a typescript configuration file.
+```bash
+tsc --init
+```
