@@ -3,21 +3,26 @@ This project is template with step by step guide of installing all components an
 
 # Installation
 
+In order to create our desired project we need some tools and frameworks to help us out.
+
 ## Tools
-Before we can create our desired project and install all the components we need some tools to help us build it.
-Let's start by installing our version control [git](https://git-scm.com/download/win).
+
+Version control is essential for all of your projects.
+For version control we can use [git](https://git-scm.com/download/win).
 
 Along with version control we will need [NodeJS](https://nodejs.org) for most of our components and tools to work.
-I also recommend installing [XAMPP](https://www.apachefriends.org/download.html) to host your website and to installs the selected PHP version with it.
-After installing the tools mentioned above we need [composer](https://getcomposer.org/).
+I also recommend installing [XAMPP](https://www.apachefriends.org/download.html). This will install the selected PHP version and has the tools to host your website.
+Finally we can install [composer](https://getcomposer.org/).
 
 ## Frameworks
 
+Now that we have the proper tools installed we can start creating our project.
+
 ### Laravel
 
-Now that we have the proper tools installed we can create a laravel project using composer.
-Open up your `command prompt` or `git bash` and navigate to the desire root folder you want the project to be installed in.
-After you have navigated to the desired folder use the following command to create your laravel project.
+Creating a laravel project is super easy with composer.
+Open up your `command prompt` or `git bash` and navigate to the folder you want the project folder to be created in.
+After you have navigated to the desired folder, use the following command to create your laravel project.
 *Note: Make sure to replace `application-name` with the desired project name.*
 ```bash
 composer create-project laravel/laravel application-name
@@ -32,7 +37,8 @@ npm install
 
 ### Tailwind
 
-To make our websites beautiful we will need [TailwindCSS](https://tailwindcss.com/).
+To help us make our website look beautiful we need a framework to help us out.
+For this we can use [TailwindCSS](https://tailwindcss.com/).
 Install it and it's postcss processing component with the following command.
 ```bash
 npm install tailwindcss@latest postcss@latest autoprefixer@latest
